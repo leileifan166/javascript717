@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <h2>ロサンゼルス市の気温</h2>
+    <script type="text/javascript">
+    var degreeF = 68;
+    var degreeC = 0;
+    degreeC = 5/9*(degreeF-32);
+    document.write('华氏度: ' + degreeF + '&deg;F<br>');
+    document.write('摄氏度: ' + degreeC + '&deg;C');
+    let chang = 0.6;
+    let kuan = 0.3;
+    let mianji = chang*kuan;
+    document.write('<br>一块瓷砖的面积为' + mianji + '平方メートル<br>');
+    /* let money = prompt('いくら貯金しますか');
+    let lilv = prompt('利率を入力してくだい');
+    let year = prompt('何年貯金しますか');
+    let lixi = lilv*money*year;
+    alert(money + '元在银行存款' + year +'年后所得的利息为' + lixi +'元'); */
+    let money = 10000;
+    let lilv = 3.2/100;
+    let year = 1;
+    let lixi = lilv*money*year;
+    document.write(money + '元在银行存款' + year +'年后所得的利息为' + lixi +'元<br>');
+    var names = "零基础学";
+    /* names = names + "javascript";
+    document.write(names);
+    document.write("<br>"); */
+    names += "javascript";
+    document.write(names);
+    </script>
+    <script>
+        var movieName,director,type,actor,boxoffice;
+        movieName = "美人鱼";
+        director = "";
+        type = "";
+        actor = "";
+        boxoffice = 33.9;
+        alert('影片名称:' + movieName + '\n导演: ' + director + '\n类型: ' + type + '\n主演: ' + actor + '\n票房: ' + boxoffice + '亿元');
+
+    </script>
+
+    
+</body>
+</html>
